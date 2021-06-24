@@ -179,7 +179,7 @@ span{
 .blurbox{
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(6px) grayscale(0.6);
+    backdrop-filter: blur(6px) grayscale(0.75);
     
 }
 
@@ -338,6 +338,22 @@ footer .flex{
 .product .container-visible{
     overflow: visible;
 }
+.product .grid{
+    gap: 40px;
+    align-items: flex-start;
+    
+}
+.zoom{
+    border: 2px solid black;
+}
+.zoom p{
+    font-weight: 500;
+}
+
+.product .container-visible .zoom:hover{
+    transform: scale(1.1);
+}
+
 
 
 
@@ -350,21 +366,6 @@ footer .flex{
     align-self: center;
 }
 
-/* About Us*/
-.aboutus .grid-type-2 img{
-    width: 50%;
-    justify-self: center;
-}
-
-.aboutus .about-text{
-    align-self: center;
-}
-
-/* Products */
-
-.product .container-visible{
-    overflow: visible;
-}
 
 
 
