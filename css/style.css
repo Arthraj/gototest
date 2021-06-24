@@ -157,7 +157,7 @@ span{
 .civilization p{
     padding: 10px 80px;
     font-size: 12px;
-    
+    font-weight: bold;
 }
 
 .civilization .grid{
@@ -399,6 +399,10 @@ footer .flex{
     align-self: flex-start;
 }
 
+.civilization .grid{
+    display: block;
+}
+
 .civilization p{
     padding: 10px 20px;
     font-size: 12px;
@@ -468,6 +472,14 @@ footer .flex{
     gap: 40px;
 }
 
+.footer .flex{
+    display: block;
+    
+}
+.footer .flex p{
+    text-align: center;
+}
+
 .tutan h2{
     font-size: 25px;
     text-align: center;
@@ -484,6 +496,7 @@ footer .flex{
 h2{
     padding: 2rem 0;
 }
+
 footer{
     height: auto;
 }
