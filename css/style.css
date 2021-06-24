@@ -299,6 +299,8 @@ footer .flex{
     padding-right: 0;
 }
 
+
+
 /* CONTACT */
 
 .bg-contact{
@@ -316,9 +318,18 @@ footer .flex{
     height: auto;
 }
 
-.contact .grid>*:first-child{
-    align-self: center;
+
+
+.contact .grid{
+    padding-top: 0;
 }
+
+.contact .grid>*:first-child{
+    align-self: flex-start;
+}
+
+
+
 
 
 /* About Us*/
@@ -330,6 +341,9 @@ footer .flex{
 .aboutus .about-text{
     align-self: center;
 }
+
+
+
 
 
 
@@ -353,19 +367,6 @@ footer .flex{
 .product .container-visible .zoom:hover{
     transform: scale(1.1);
 }
-
-
-
-
-.map{
-    width: 100%;
-    height: auto;
-}
-
-.contact .grid>*:first-child{
-    align-self: center;
-}
-
 
 
 
@@ -404,6 +405,7 @@ footer .flex{
     font-size: 12px;
     
 }
+
 
 .footer .grid-4{
     grid-template-columns: repeat(2,1fr);
@@ -457,7 +459,6 @@ footer .flex{
 .aboutus .grid-type-1,
 .aboutus .grid-type-2,
 .product .grid-3,
-.contact .grid,
 .footer .grid-4
 {
     grid-template-columns:1fr;
@@ -498,6 +499,10 @@ footer{
 footer .grid-3{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contact .flex{
+    flex-direction: column;
 }
 
 
